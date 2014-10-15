@@ -371,8 +371,7 @@ static int __init msm_cpufreq_register(void)
 	}
 
 #ifdef CONFIG_SMP
-	msm_cpufreq_wq = alloc_workqueue("msm-cpufreq",
-			WQ_MEM_RECLAIM | WQ_HIGHPRI, 1);
+	msm_cpufreq_wq = create_workqueue("msm-cpufreq");
 #endif
 
 	return cpufreq_register_driver(&msm_cpufreq_driver);
