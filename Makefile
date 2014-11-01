@@ -2,7 +2,7 @@ VERSION = 3
 PATCHLEVEL = 4
 SUBLEVEL = 11
 EXTRAVERSION =.beta_9.5
-NAME = Mate Fed Kill Repeat
+NAME = Mate Feed Kill Repeat
 
 # *DOCUMENTATION*
 # To see a list of typical targets execute "make help"
